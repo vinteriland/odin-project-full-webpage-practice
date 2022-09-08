@@ -1,0 +1,27 @@
+body{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 24px ;
+    color: #f9faf8;
+}
+
+.link-one{
+}
+
+.link{
+    flex: 1 1 auto;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 50px;
+}
+
+
+
