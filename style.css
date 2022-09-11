@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin:0;
 }
 
 .header, .footer, .one{
@@ -87,6 +88,72 @@ button{
     height: 150px;
     border:2px solid lightskyblue;
     border-radius: 6px;
+}
+
+.three{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-around;
+    background-color: #e5e7eb;
+    height: 250px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.three p{
+    margin:5px;
+    
+}
+
+.three .container{
+    display: flex;
+    max-width: 900px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+}
+
+.four-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 900px;
+    margin: 30px 50px;
+    gap: 80px;
+}
+
+.four-one-one {
+    padding: 30px;
+    color:white;
+}
+
+.four-one-one p{
+    padding:0;
+    margin-top: 0;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.four-one-two button{
+    border-width: 2px;
+    border-color: white;
 }
 
 
